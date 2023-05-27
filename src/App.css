@@ -1,0 +1,250 @@
+/* ABOUT */
+.about__Vision-image{
+    align-self: center;
+    border-radius: 5%;
+    overflow: hidden;
+}
+.about__section-content{
+    /* background-color: #d9f7ec; */
+    padding: 2rem;
+}
+.about__section-content h1{
+    margin-bottom: 2rem;
+}
+
+.about__section-content p {
+    margin-bottom: 1rem;
+    color: var(--color-gray-500);
+}
+
+.about__Vision-container{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 10%;
+}
+
+.about-heading {
+    color: #ff8716;
+}
+
+.support-list {
+    list-style-type: disc !important;
+}
+
+/* PROGRAMS */
+
+.programs{
+    margin-top: 4rem;
+    padding: 3rem;
+    background-color: #ffffff;
+}
+.programs__wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin-top: 4rem;
+}
+
+/* DONATE */
+.donate__container{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 10%;
+}
+.donate__section-content h1{
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: var(--color-secondary);
+}
+.donate__section-content h3{
+    margin-bottom: 2rem;
+    color: #aa7f3e;
+}
+.donate__section-content p{
+    margin-bottom: 1rem;
+    color: var(--color-gray-500);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+input,textarea{
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--color-orange);
+    resize: none;
+    color: var(--color-white);
+}
+
+
+
+
+
+
+footer{
+    background: var(--color-gray-500);
+    margin-top: 6rem;
+    padding-top: 4rem;
+    font-size: 0.9rem;
+    color: var(--color-gray-100);
+}
+.footer2{
+    background: var(--color-gray-500);
+    padding-top: 2rem;
+    margin-top: 6rem;
+    font-size: 1rem;
+}
+.footer2__copyright{
+    color: var(--color-gray-100);
+    text-align: center;
+    padding: 1.5rem 0;
+}
+.SignupFooter__container{
+    display: none;
+}
+.SignupFooter__container article{
+    color: var(--color-primary-variant);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.9rem;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+.payment__container{
+     border-top: 1px solid var(--color-primary-variant);
+}
+.footer__container{
+    display: grid;
+    grid-template-columns: 26rem 1fr 1fr 1fr;
+    gap: 6rem;
+}
+.footer__container article{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.7rem;
+}
+.footer__container article p{
+    margin-top: 0.5rem;
+}
+.footer__container article h4{
+    margin-bottom: 0.6rem;
+    font-size: 1rem;
+}
+.footer__copyright{
+    color: var(--color-gray-100);
+    text-align: center;
+    padding: 1.5rem 0;
+    border-top: 2px solid var(--color-primary-variant);
+    margin-top: 5rem;
+}
+
+
+/* ======MEDIA QUERIES (MEDIUM DEVICES) ======= */
+@media screen and (max-width: 1024px) {
+    .donate__section-content h2{
+        margin-bottom: 1.2rem;
+    }
+    .programs__block__container{
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        justify-content: center;
+    }
+    .donate__container{
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        justify-content: center;
+    }
+    .donate {
+        grid-row: 2;
+    }
+    .about__section-content h1{
+        margin-bottom: 1.2rem;
+    }
+    .about__Vision-container{
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+    .about__Vision .about__Vision-image{
+        grid-row: 1;
+    }
+    .about__Vision-image{
+        width: 80%;
+        margin-inline: auto;
+    }
+    .programs__wrapper{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .values__container{
+        grid-template-columns: 1fr;
+        justify-content: center;
+        gap: 4rem;
+    }
+
+    .values__wrapper{
+        gap: 4rem 3rem;
+    }
+
+  
+   
+    .footer__container{
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+    }
+}
+
+
+
+
+
+/* ======MEDIA QUERIES (SMALL DEVICES) ======= */
+@media screen and (max-width: 600px) {
+    form{
+        padding: 2rem;
+        background-color: #fff;
+    }
+    .about__Vision-image{
+        width: 80%;
+        margin-inline: auto;
+    }
+    .about__Vision-container{
+        gap: 2rem;
+    }
+    .donate__container{
+        gap: 2rem;
+    }
+    .programs__wrapper{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        margin-top: 3rem;
+    }
+
+    .programs__progran{
+        width: 84%;
+        margin: 0 auto;
+    }
+    .card.card.values__value{
+        width: 84%;
+        margin-inline: auto;
+    }
+
+    footer{
+        margin-top: 7rem;
+    }
+    .footer__container{
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+    .footer__container article{
+        align-items: center;
+    }
+    .footer__container article p{
+        text-align: center;
+    }
+   
+}
