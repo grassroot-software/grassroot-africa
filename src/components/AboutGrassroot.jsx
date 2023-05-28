@@ -67,10 +67,10 @@ const AboutGrassroot = () => {
                     development of their societies, and ipso facto enhancing the role of prisons in national development.
                 </p>
 
-                <h2 className="sub_heading">For God and Country</h2>
+                <h1 className="sub_heading">Our Service is For God and Country</h1>
                 <p> 
-                    We invite you to support  the Grassroot initiative as we strive to make our society a safe place for peaceful coexistence and national development 
-                </p>
+                    We invite you to support  the grassroot initiative 
+                </p> <p>We seek donations in physical items like food, computers and accessories or in cash to :</p>
                 
 
                 <ul className="support-list">
