@@ -27,8 +27,13 @@
     color: #ff8716;
 }
 
-.support-list {
-    list-style-type: disc !important;
+.sub_heading {
+    margin: 30px 0 10px;
+}
+
+.support-list li{
+    list-style-type: disc;
+    margin: 0 25px;
 }
 
 /* PROGRAMS */
