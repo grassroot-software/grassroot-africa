@@ -66,18 +66,19 @@ const AboutGrassroot = () => {
                     Our goal is To prepare the ‘less adequate’ for the world outside by making  African inmates employable through rehabilitation and redirecting their paths towards social inclusion and productivity, life fulfillment, contributing to the 
                     development of their societies, and ipso facto enhancing the role of prisons in national development.
                 </p>
-                <p>
-                   <b>For God and Country</b> <br />
+
+                <h2 className="sub_heading">For God and Country</h2>
+                <p> 
                     We invite you to support  the Grassroot initiative as we strive to make our society a safe place for peaceful coexistence and national development 
                 </p>
                 
 
-                {/* <ul className="support-list">
+                <ul className="support-list">
                     <li>Establish a catering service in the prison and provide two square meals for enrolled inmates.</li>
                     <li>Provide computers for learning.</li>
                     <li>Finance the cost of transportation for  Grassroot teachers who volunteer their time and expertise without asking for financial rewards </li>
-                </ul> */}
-                <p>
+                </ul>
+                {/* <p>
                     Establish a catering service in the prison and provide two square meals for enrolled inmates.
                 </p>
                 <p>
@@ -85,7 +86,7 @@ const AboutGrassroot = () => {
                 </p>
                 <p>
                     Finance the cost of transportation for  Grassroot teachers who volunteer their time and expertise without asking for financial rewards 
-                </p>
+                </p> */}
 
                 <p><Link to="/">Pay Now</Link></p>
 
