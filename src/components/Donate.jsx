@@ -30,7 +30,7 @@ const Donate = () => {
                 
                 <p><GiCheckMark/> Establish a catering service in the prison and provide two square meals for enrolled inmates.</p>
                 <p><GiCheckMark/> Provide computers for learning. </p>
-                <p><GiCheckMark/> Provide Internet for our teachers as most of them give lectures remotely via zoom. </p><br></br>
+                <p><GiCheckMark/>Finance the cost of transportation for Grassroot teachers who volunteer their time and expertise without asking for financial rewards </p><br></br>
 
 
     
