@@ -90,7 +90,7 @@ const AboutGrassroot = () => {
 
                 <p><Link to="/">Pay Now</Link></p>
 
-                <p>For Physical items like food, computers, and computer accessories, please fill out the form below and  a Grassroot ambassador will get in touch </p>
+                <p><h2>For Physical items like food, computers, and computer accessories, please fill out the form below and  a Grassroot ambassador will get in touch</h2> </p>
     
                 <form ref={form} onSubmit={sendEmail}>
                         <input type='text' name='name' placeholder='Full Name' required />
