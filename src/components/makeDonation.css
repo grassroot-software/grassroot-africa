@@ -11,6 +11,7 @@
 
 .donation-amount-options {
   display: flex;
+  justify-content: space-between;
   gap: 10px;
 }
 
@@ -28,9 +29,9 @@
 }
 
 .donation-amount-options button.selected {
-  background-color: #2196f3;
+  background-color: rgb(228, 45, 45);
   color: #fff;
-  border-color: #2196f3;
+  border-color: rgb(223, 50, 50);
 }
 
 form {

@@ -79,28 +79,24 @@ const AboutGrassroot = () => {
                     <li>Provide computers for learning.</li>
                     <li>Finance the cost of transportation for  Grassroot teachers who volunteer their time and expertise without asking for financial rewards </li>
                 </ul>
-                {/* <p>
-                    Establish a catering service in the prison and provide two square meals for enrolled inmates.
-                </p>
-                <p>
-                    Provide computers for learning.
-                </p>
-                <p>
-                    Finance the cost of transportation for  Grassroot teachers who volunteer their time and expertise without asking for financial rewards 
-                </p> */}
+               <br />
+               <br />
+
 
                 <MakeDonation />
-                <p><Link to="/">Pay Now</Link></p>
 
-                <p><h2>For Physical items like food, computers, and computer accessories, please fill out the form below and  a Grassroot ambassador will get in touch</h2> </p>
+                <br />
+                
+                <h3 className="dontate__physical-items">For Physical items like food, computers, and computer accessories, please fill out the form below and  a Grassroot ambassador will get in touch</h3>
     
                 <form ref={form} onSubmit={sendEmail}>
-                        <input type='text' name='name' placeholder='Full Name' required />
-                        <input type='email' name='email' placeholder='Email' required />
-                        <input type='tel' name='telephone' placeholder='Phone Number' required />
-                        <textarea name='message' rows='7' placeholder='Drop your message' required />
-                        <button type='submit' className='btnStart'>Submit</button>
+                    <input type='text' name='name' placeholder='Full Name' required />
+                    <input type='email' name='email' placeholder='Email' required />
+                    <input type='tel' name='telephone' placeholder='Phone Number' required />
+                    <textarea name='message' rows='7' placeholder='Drop your message' required />
+                    <button type='submit' className='btnStart'>Submit</button>
                 </form>
+
             </div>
             <div className='about__Vision-image'>
                 <img src={AboutUsImage1} alt='About Us' />

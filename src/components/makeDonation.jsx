@@ -78,6 +78,7 @@ const MakeDonation = () => {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           placeholder="Enter your e-mail address"
+          required
         />
 
         {paymentOption === '' && (
