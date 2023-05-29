@@ -50,7 +50,7 @@ const AboutGrassroot = () => {
                     That's why today,  I'm doing something about it 
                 </p>
                 <p>
-                    My name is Samson Chuks and I'm the founder of Grassroot Africa. The organization that will equip African inmates with employable skills to 
+                    My name is Samson Aghalor and I'm the founder of Grassroot Africa. The organization that will equip African inmates with employable skills to 
                     enhance their chances of securing jobs after release from prison
                 </p>
                 <p>
@@ -85,9 +85,11 @@ const AboutGrassroot = () => {
 
                 <MakeDonation />
 
+
                 <br />
                 
                 <h3 className="dontate__physical-items">For Physical items like food, computers, and computer accessories, please fill out the form below and  a Grassroot ambassador will get in touch</h3>
+      
     
                 <form ref={form} onSubmit={sendEmail}>
                     <input type='text' name='name' placeholder='Full Name' required />
