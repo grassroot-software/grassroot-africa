@@ -69,11 +69,18 @@
     margin-bottom: 1rem;
     color: var(--color-gray-500);
 }
+
+.dontate__physical-items {
+    margin: 30px 0;
+    word-spacing: 2px;
+}
+
 form{
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
 }
+
 input,textarea{
     width: 100%;
     padding: 1.5rem;
@@ -253,3 +260,35 @@ footer{
     }
    
 }
+
+
+/* styles.css */
+.donation-form {
+  /* Add your desired styles for the donation form container */
+}
+
+.donation-form label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.donation-form input[type="radio"] {
+  display: none;
+}
+
+.donation-form input[type="radio"] + label {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #eee;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.donation-form input[type="radio"]:checked + label {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Add your additional styling for other form elements, buttons, etc. */
