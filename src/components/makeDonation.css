@@ -1,0 +1,68 @@
+/* makeDonation.css */
+
+.donation-amount {
+  margin-bottom: 20px;
+}
+
+.donation-amount label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.donation-amount-options {
+  display: flex;
+  gap: 10px;
+}
+
+.donation-amount-options button {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px 12px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.donation-amount-options button:hover {
+  background-color: #f0f0f0;
+}
+
+.donation-amount-options button.selected {
+  background-color: #2196f3;
+  color: #fff;
+  border-color: #2196f3;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+form input[type="email"],
+form input[type="number"] {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.donation-page button {
+  background-color: #2196f3;
+  color: #fff;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
