@@ -2,7 +2,8 @@ import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
-import Donate from "./Donate";
+import MakeDonation from "./makeDonation";
+
 
 // Email Config
 import {useRef} from 'react';
@@ -88,6 +89,7 @@ const AboutGrassroot = () => {
                     Finance the cost of transportation for  Grassroot teachers who volunteer their time and expertise without asking for financial rewards 
                 </p> */}
 
+                <MakeDonation />
                 <p><Link to="/">Pay Now</Link></p>
 
                 <p><h2>For Physical items like food, computers, and computer accessories, please fill out the form below and  a Grassroot ambassador will get in touch</h2> </p>

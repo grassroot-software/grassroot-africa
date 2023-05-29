@@ -253,3 +253,35 @@ footer{
     }
    
 }
+
+
+/* styles.css */
+.donation-form {
+  /* Add your desired styles for the donation form container */
+}
+
+.donation-form label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.donation-form input[type="radio"] {
+  display: none;
+}
+
+.donation-form input[type="radio"] + label {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #eee;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.donation-form input[type="radio"]:checked + label {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Add your additional styling for other form elements, buttons, etc. */
