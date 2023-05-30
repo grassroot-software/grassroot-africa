@@ -27,7 +27,7 @@ export const handlePayment = (email, amount) => {
       
 
       // Switch to welcome page
-      window.location.href = "/welcome"
+      window.location.href = "/"
     }
   });
 

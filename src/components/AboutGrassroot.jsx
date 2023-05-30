@@ -107,7 +107,7 @@ const AboutGrassroot = () => {
     </section>
 
 
-    
+    <Footer />
         </div>
     )
 }
