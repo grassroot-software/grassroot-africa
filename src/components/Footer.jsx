@@ -15,7 +15,8 @@ const Footer = () => {
                 training 1 million young Africans in advanced Software Enginering courses and connect them to a 
                 network of remote employers home and abroad. To accelerate the Digital revolution in Africa and lift lives out of poverty .
                 </p>
-            </article>
+            </article> 
+/*
             <article>
                 <h4> Hyperlinks</h4>
                 <a href='/' > Grassroot Africa</a>
@@ -25,11 +26,14 @@ const Footer = () => {
                 
                 
             </article>
+
             <article>
                 <h4> Get Started</h4>
                 <a href='/signup'>Register </a>
                 <a href='https://learn.grassroot.academy/sign_in'>Login </a>
-            </article>
+            </article> 
+                  */
+
             <article>
                 <h4> Contact Us</h4>
                 <a href='mailto:Management@grassroot.academy' target='_blank' rel='noreferrer noopener'>Send Us A Mail</a>
