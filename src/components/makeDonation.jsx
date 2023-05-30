@@ -4,8 +4,8 @@ import './makeDonation.css';
 
 const MakeDonation = () => {
   const [email, setEmail] = useState('');
+  const [fullName, setFullName] = useState('');
   const [amount, setAmount] = useState('');
-  const [loading, setLoading] = useState(false);
   const [paymentOption, setPaymentOption] = useState('');
 
   const handleDonationAmountChange = (e) => {
@@ -21,9 +21,7 @@ const MakeDonation = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setLoading(true);
     handlePayment(email, amount)
-    setLoading(true)
   };
 
   const handleAmountChange = (e) => {
@@ -32,8 +30,8 @@ const MakeDonation = () => {
   };
 
   return (
-    <div>
-      <h2>Make Donation</h2>
+    <div className="donate-container">
+      <h1>Make Donation</h1>
       <form onSubmit={handleSubmit}>
         <div className="donation-amount">
           <label>Donation Amount:</label>
@@ -72,15 +70,6 @@ const MakeDonation = () => {
           </div>
         </div>
 
-        <label>Email Address:</label>
-        <input
-          type="email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          placeholder="Enter your e-mail address"
-          required
-        />
-
         {paymentOption === '' && (
           <div>
             <label>Amount:</label>
@@ -93,9 +82,31 @@ const MakeDonation = () => {
           </div>
         )}
 
+        <h2>Personal Information</h2>
+
+        <label>Email Address:</label>
+        <input
+          type="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          placeholder="Enter your e-mail address"
+          required
+        />
+
+        <label>Full Name:</label>
+        <input
+          type="text"
+          value={fullName}
+          onChange={(e) => setFullName(e.target.value)}
+          placeholder="Enter your full name"
+          required
+        />
+
+
+
         {/* Button */}
-        <button type="submit" className='btnStart' disabled={loading}>
-          {loading ? 'Processing...' : 'Proceed to pay'}
+        <button type="submit" className='btnStart'>
+          Donate Now
         </button>
       </form>
     </div>
