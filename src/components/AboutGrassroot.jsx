@@ -47,10 +47,10 @@ const AboutGrassroot = () => {
                     have experienced the same feeling of helplessness when I see smart young  Africans resorting to crime due to a lack of academic opportunities.
                 </p>
                 <p>
-                    That's why today,  I'm doing something about it 
+                    That's why today,  Grassroot is doing something about it 
                 </p>
                 <p>
-                    My name is Samson Chuks and I'm the founder of Grassroot Africa. The organization that will equip African inmates with employable skills to 
+                    My name is Samson Aghalor, Co-founder of Grassroot Africa. The organization that will equip African inmates with employable skills to 
                     enhance their chances of securing jobs after release from prison
                 </p>
                 <p>

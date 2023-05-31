@@ -50,6 +50,7 @@
 .btnStart:hover{
     background: var(--color-secondary);
     color: var(--color-gray-100);
+    cursor: pointer;
 }
 /* ======MEDIA QUERIES (MEDIUM DEVICES) ======= */ 
 @media screen and (max-width: 1024px) {
