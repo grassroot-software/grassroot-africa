@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import Logo from '../images/logo.png'
+import Logo from '../images/logo.jpg'
 
 
 const Footer = () => {
@@ -14,15 +14,8 @@ const Footer = () => {
                 We believe it's time for mother Africa to rise. Our mission is to achieve the goal in 
                 training 1 million young Africans in advanced Software Enginering courses and connect them to a 
                 network of remote employers home and abroad. To accelerate the Digital revolution in Africa and lift lives out of poverty .
-                </p>
-           
-            
-                
-                
-                
-             
-                
-              
+                </p>                       
+            </article>
             <article>
                 <h4> Contact Us</h4>
                 <a href='mailto:Management@grassroot.academy' target='_blank' rel='noreferrer noopener'>Send Us A Mail</a>
