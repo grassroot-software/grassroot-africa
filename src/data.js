@@ -14,7 +14,7 @@ export const links = [
     {
         name: "About",
         path: "/about-grassroot"
-    },/*
+    },
     {
         name: "Register",
         path: 'https://www.grassroot.academy/signup'
@@ -22,7 +22,7 @@ export const links = [
     {
         name: "Login",
         path: 'https://learn.grassroot.academy/sign_in'
-    },*/
+    },
 ]
 
 export const programs = [
