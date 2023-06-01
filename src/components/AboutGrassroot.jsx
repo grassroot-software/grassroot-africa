@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import { Link } from "react-router-dom";
 import MakeDonation from "./makeDonation";
 
 
@@ -81,9 +80,6 @@ const AboutGrassroot = () => {
                 </ul>
                <br />
                <br />
-
-
-                <MakeDonation />
 
 
                 <br />
